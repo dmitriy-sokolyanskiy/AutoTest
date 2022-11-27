@@ -98,10 +98,4 @@ public class FirstLab {
             }
         }
     }
-
-    @Test
-    public void testCustomPage() {
-        String customUrl = "https://hulkshop.com.ua/";
-        driver.get(customUrl);
-    }
 }

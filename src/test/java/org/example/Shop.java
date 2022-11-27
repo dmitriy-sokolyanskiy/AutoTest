@@ -50,6 +50,5 @@ public class Shop {
         WebElement searchField = driver.findElement(By.xpath("//input[@placeholder='пошук товарів']"));
         Assert.assertNotNull(searchField);
         searchField.sendKeys(query);
-//        Thread.sleep(3000);
     }
 }
